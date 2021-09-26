@@ -1,0 +1,183 @@
+.art{font-family: 'Josefin Sans', sans-serif;
+font-size: 1.5em;
+}
+.fon{font-family: 'Patrick Hand', cursive;}
+.head{background-image: url(https://wallpapercave.com/wp/wp2773781.jpg);
+height:650px;
+width: 100%;
+background-size: cover;
+text-align: center;
+
+
+animation-name: hd;
+animation-duration: 30s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes hd {
+  0%{background-image: url(https://wallpapercave.com/wp/wp2773781.jpg);}
+  30%{background-image: url(https://wallpapercave.com/wp/wp2773781.jpg);}
+  33.33%{background-image: url(https://artfiles.alphacoders.com/522/thumb-1920-52227.jpg);}
+  63.33%{background-image: url(https://artfiles.alphacoders.com/522/thumb-1920-52227.jpg);}
+  66.66%{background-image: url(https://images4.alphacoders.com/573/thumb-1920-573779.jpg);}
+  96.66%{background-image: url(https://images4.alphacoders.com/573/thumb-1920-573779.jpg);}
+  100%{background-image: url(https://wallpapercave.com/wp/wp2773781.jpg);}
+
+
+}
+
+
+
+.title{font-family: 'Josefin Sans', sans-serif;
+font-size: 4em;
+position: relative;
+top: 250px;
+color: white;
+width: 80%;
+margin: auto;
+
+}
+nav{background-color: black;
+}
+.search{
+  width: 80%;
+}
+
+.k{color: red;
+font-family: 'Courgette', cursive;
+font-size: 1.3em;
+
+}
+
+
+@media (max-width:600px){
+.head{height: 400px;}
+.art{font-size: 1em;}
+.title{font-size: 2em;
+top: 150px;}
+
+.img16-9{
+  width: 90%;
+  height: auto;
+  margin: 5px;
+  vertical-align: top;
+
+}
+.img9-16{
+  width: 90%;
+  height: auto;
+  margin: 5px;
+  vertical-align: top;
+
+}
+}
+
+@media (max-width:800px) and (min-width:600px){
+.head{height: 400px;}
+.art{font-size: 1em;}
+.title{font-size: 2em;
+top: 150px;}
+
+.img16-9{
+  width: 600px;
+  height: auto;
+  margin: 5px;
+  vertical-align: top;
+
+}
+
+.img9-16{
+  width: 600px;
+  height: auto;
+  margin: 5px;
+  vertical-align: top;
+
+}
+}
+
+
+
+
+
+.card-text{font-size: 0.80em;
+}
+
+.card-text:hover{font-size: 1em;
+  color: black;
+}
+.nav-tabs{
+  border-color: black;
+
+}
+
+.tab-content{
+background-color: black;
+
+
+}
+.tab-pane{text-align: center;}
+.a{margin:3px 10px;}
+.m{vertical-align: middle;
+color: red;
+font-family: 'Patrick Hand', cursive;
+font-size: 2em;margin-top: 0;
+margin-bottom: 0;
+vertical-align: middle;
+
+}
+
+.m:hover {
+color: white;
+font-size: 1.9em;
+margin-top: 0;
+margin-bottom: 0;
+font-family: 'Patrick Hand', cursive;
+
+}
+
+
+
+.s{z-index: 1;}
+.red{background-color: black;
+color: white;
+}
+.red a{color: white
+
+}
+@media (min-width:800px){
+
+
+.img16-9{
+  width: 800px;
+  height: auto;
+  margin: 10px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.img9-16{
+  width: 500px;
+  height: auto;
+  margin: 10px;
+  vertical-align: top;
+  display: inline-block;
+
+}
+}
+.anime {
+animation-name: slide;
+animation-duration: 4s;
+animation-iteration-count: 1;
+
+  }
+@keyframes slide {
+  from{opacity: 0%;}
+  to{opacity:100%;}
+}
+.div{
+  max-width: 7%;
+  max-height: auto;
+  position: absolute;bottom: 2px;
+  left: 2px;
+}
